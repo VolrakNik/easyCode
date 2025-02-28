@@ -25,7 +25,7 @@
 Затем следует зайти в консоль php-контейнера:
 `docker exec -it easyCode_php sh`
 
-Выполни `composer install`
+Выполни `composer install` и `php artisan key:generate`
 
 И выполнить миграцию: `php app/migrations/migrate.php`
 
